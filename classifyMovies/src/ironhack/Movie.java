@@ -1,12 +1,17 @@
 package ironhack;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
- *
- * @author Stathis Fotiadis
+ * This class represents the movie entities. 
+ * The attributes are protected and an interface for each one is provided.
+ * Also provided:
+ * Comparison functions (implementing Comparator).
+ * A print function.
+ * @author kabamaru
  */
-public class Movie {
+public  class Movie {
 
     private int id;
     private String[] genres;
@@ -80,10 +85,29 @@ public class Movie {
     public void setPopularity(double popularity){
         this.popularity = popularity;
     }
-    
+
     public void print() {
         System.out.println(this.id + " " + this.title + " " + this.year  + " " + Arrays.toString(this.genres)  + " " + this.director 
-                           + " " + Arrays.toString(this.actors)  + " " + Arrays.toString(this.tags)  + " " + this.popularity);   
+                + " " + Arrays.toString(this.actors)  + " " + Arrays.toString(this.tags)  + " " + this.popularity);   
     }
-    
+
+    /**
+     * A Movie Comparator based on popularity
+     * It sorts the movies in descending order.
+     * @author kabamaru
+     *
+     */
+    public static class OrderByPopularity implements Comparator<Movie> {
+        @Override
+        /**
+         * Returns 1,0,-1 depending which movie is more popular
+         */
+        public int compare(Movie mv1, Movie mv2) {
+            return mv1.getPopularity() > mv2.getPopularity() ? -1 : (mv1.getPopularity() < mv2.getPopularity() ? 1 : 0);
+        }
+
+    };
+
+
+
 }
