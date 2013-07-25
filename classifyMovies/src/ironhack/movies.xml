@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  	<movie-db>
+    	<movie>
+			<id>10001</id>
+      		<title>Alice</title>
+      		<year>1990</year>
+      		<genres>
+				<genre>Comedy</genre>
+				<genre>Fantasy</genre>
+				<genre>Romance</genre>
+			</genres>
+      		<director>Woody Allen</director>
+      		<cast>
+				<actor>Mia Farrow</actor>
+				<actor>William Hurt</actor>
+				<actor>Joe Mantegna</actor>
+				<actor>June Squibb</actor>				
+			</cast>
+			<tags>
+				<tag>Tag1</tag>
+				<tag>Tag2</tag>
+			</tags>
+			<popularity>5.0</popularity>
+    	</movie>
+
+		<movie>
+			<id>10002</id>
+      		<title>Eternal sunshine of the spotless mind</title>
+      		<year>2004</year>
+      		<genres>
+				<genre>Drama</genre>
+				<genre>Sci-Fi</genre>
+				<genre>Romance</genre>
+			</genres>
+      		<director>Charlie Kaufman</director>
+      		<cast>
+				<actor>Jim Carrey</actor>
+				<actor>Kate Winslet</actor>	
+				<actor>Elijah Wood</actor>							
+			</cast>
+			<tags>
+				<tag>Tag1</tag>
+				<tag>Tag3</tag>
+			</tags>
+			<popularity>8.4</popularity>
+    	</movie>
+
+		<movie>
+			<id>10003</id>
+      		<title>Synechoche, New York</title>
+      		<year>2008</year>
+      		<genres>
+				<genre>Drama</genre>
+			</genres>
+      		<director>Woody Allen</director>
+      		<cast>
+				<actor>Phillip Seymour Hoffman</actor>
+				<actor>Catherine Keener</actor>			
+			</cast>
+			<tags>
+				<tag>Tag2</tag>
+				<tag>Tag4</tag>
+			</tags>
+			<popularity>7.2</popularity>
+    	</movie>
+
+		<movie>
+			<id>10004</id>
+      		<title>Lord of the rings</title>
+      		<year>2001</year>
+      		<genres>
+				<genre>Action</genre>
+				<genre>Fantasy</genre>
+				<genre>Adventure</genre>
+			</genres>
+      		<director>Peter Jackson</director>
+      		<cast>
+				<actor>Elijah Wood</actor>
+				<actor>Ian McKellen</actor>				
+			</cast>
+			<tags>
+				<tag>Tag1</tag>
+				<tag>Tag4</tag>
+			</tags>
+			<popularity>8.8</popularity>
+    	</movie>
+
+		<movie>
+			<id>10005</id>
+      		<title>Annie Hall</title>
+      		<year>1977</year>
+      		<genres>
+				<genre>Comedy</genre>
+				<genre>Romance</genre>
+			</genres>
+      		<director>Woody Allen</director>
+      		<cast>
+				<actor>Woody Allen</actor>
+				<actor>Diane Keaton</actor>				
+			</cast>
+			<tags>
+				<tag>Tag2</tag>
+			</tags>
+			<popularity>8.2</popularity>
+    	</movie>
+
+  </movie-db>
+</xml>
